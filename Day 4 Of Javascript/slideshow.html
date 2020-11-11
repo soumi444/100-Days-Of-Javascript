@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background Image Slider</title>
+    <link rel="stylesheet" href="slideshow.css">
+</head>
+<body>
+<div class="container">
+    <div class="slide">
+        <div class="number-text">1/4</div>
+        <img src="images/img_lights_wide.jpg">
+        <div class="caption-text">Caption-Text</div>
+    </div>
+
+    <div class="slide">
+        <div class="number-text">2/4</div>
+        <img src="images/img_mountains_wide.jpg">
+        <div class="caption-text">Caption-Text</div>
+    </div>
+
+    <div class="slide">
+        <div class="number-text">3/4</div>
+        <img src="images/img_nature_wide.jpg">
+        <div class="caption-text">Caption-Text</div>
+    </div>
+
+    <div class="slide">
+        <div class="number-text">4/4</div>
+        <img src="images/img_snow_wide.jpg">
+        <div class="caption-text">Caption-Text</div>
+    </div>
+
+    <a class="next" onclick="plusSlide(1)">&#10095;</a>
+    <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+</div>
+
+<br>
+
+<div style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<script src="slideshow.js"></script>
+
+</body>
+</html>

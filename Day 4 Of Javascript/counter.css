@@ -1,0 +1,31 @@
+.container {
+    width: 70%;
+    text-align: center;
+    margin: 100px auto;
+    border-style: dashed;
+    border-color: darkred;
+    padding-bottom: 50px;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+button {
+    background-color: yellow;
+    color: darkred;
+    padding: 10px 40px;
+    margin: 0 20px;
+}
+
+#content {
+    font-size: 70px;
+    padding: 100px;
+}
+
+}
+
+button:hover {
+    background-color: darkred;
+    color: yellow;
+}
